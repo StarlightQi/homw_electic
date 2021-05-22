@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.home.electric.dao.IUser">
+    <select id="findUseName" resultType="com.home.electric.model.User" parameterType="String">
+        select *from user where name = #{phone}
+    </select>
+    <select id="getUser" resultType="com.home.electric.model.User" parameterType="Integer">
+        select *from user where id = #{userId}
+    </select>
+    <update id="updateUser" parameterType="com.home.electric.model.User">
+        UPDATE `furniturn`.`user` SET `name` = #{name} , `password` = #{password} , `phone` = #{phone}, `address` = #{address} , `sex` = #{sex} WHERE `id` = #{id};
+    </update>
+    <select id="findAll" resultType="com.home.electric.model.User">
+        select *from user
+    </select>
+
+    <insert id="insertUser" parameterType="com.home.electric.model.User">
+        INSERT INTO `user` (`name`, `password`, `sex`, `address`, `phone`) VALUES (#{name}, #{password}, #{sex}, #{address}, #{phone});
+    </insert>
+    <delete id="phoneDeleteUser" parameterType="String">
+        DELETE FROM user WHERE phone =#{phone}
+    </delete>
+
+    <select id="dynamicSQL" resultType="com.home.electric.model.User">
+        select * from user where
+        <if test="name!=null">
+            name like #{name}
+        </if>
+        <if test="sex!=null and name==null">
+            sex=#{sex}
+        </if>
+        <if test="sex!=null and name!=null">
+            and sex=#{sex}
+        </if>
+        <if test="phone!=null">
+            and phone=#{phone}
+        </if>
+    </select>
+
+
+    <select id="queryUserSql" parameterType="map" resultType="com.home.electric.model.User">
+        select * from test limit #{currIndex} , #{pageSize}
+</select>
+</mapper>
+

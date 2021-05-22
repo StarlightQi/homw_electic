@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.home.electric.dao.IOther">
+    <insert id="addOther" parameterType="com.home.electric.model.Other">
+      INSERT INTO `furniturn`.`other` (`otherCount`, `userId`, `furnitureId`) VALUES (#{otherCount}, #{userId.id}, #{furnitureId.furnitureId});
+    </insert>
+
+    <resultMap id="other" type="com.home.electric.model.Other">
+        <result property="otherId" javaType="Integer" column="otherId"></result>
+        <result property="otherCount" javaType="Integer" column="otherCount"></result>
+        <collection property="userId" ofType="com.home.electric.model.User">
+            <result property="id" javaType="Integer" column="id"></result>
+            <result property="name" javaType="String" column="name"></result>
+            <result property="password" javaType="String" column="password"></result>
+            <result property="phone" javaType="String" column="phone"></result>
+            <result property="sex" javaType="Boolean" column="sex"></result>
+            <result property="address" javaType="String" column="address"></result>
+        </collection>
+        <collection property="furnitureId" ofType="com.home.electric.model.Furniture">
+            <result property="furnitureId" javaType="Integer" column="furnitureId"></result>
+            <result property="furnitureName" javaType="String" column="furnitureName"></result>
+            <result property="furnitureCount" javaType="Integer" column="furnitureCount"></result>
+            <result property="furnitureSellCount" javaType="Integer" column="furnitureSellCount"></result>
+            <result property="furniturePrice" javaType="Integer" column="furniturePrice"></result>
+            <result property="describes" javaType="String" column="describes"></result>
+        </collection>
+    </resultMap>
+
+    <select id="findAll" resultMap="other">
+        SELECT * FROM `other` o
+                INNER JOIN
+                    `user` u
+                ON
+                    o.`userId`=u.`id`
+                INNER JOIN
+                    `furniture` f
+                ON
+                    o.`furnitureId`=f.`furnitureId`
+    </select>
+
+    <select id="findOther" resultMap="other">
+                SELECT * FROM `other` o
+                INNER JOIN
+                    `user` u
+                ON
+                    o.`userId`=u.`id`
+                INNER JOIN
+                    `furniture` f
+                ON
+                    o.`furnitureId`=f.`furnitureId` where otherId=#{id}
+    </select>
+</mapper>
+

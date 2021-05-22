@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="402ba5db-89b3-4887-827c-237847d20188" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pKeM9ha3zFlwhZxp1h7Ai1fEQH" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/dao" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.20229885" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Work\javaword\home_electric\resources\dao" />
+      <recent name="D:\Work\javaword\home_electric" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.home.electric" />
+      <recent name="com.home.electric.model" />
+      <recent name="com.home.electric.dao.model" />
+      <recent name="com.home.electric.dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Work\javaword\home_electric\resources\dao" />
+      <recent name="D:\Work\javaword\home_electric\lib" />
+      <recent name="D:\Work\javaword\home_electric\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.OtherServer">
+    <configuration name="FurnitureServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.home.electric.server.FurnitureServer" />
+      <module name="home_electric" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.home.electric.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OtherServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.home.electric.server.OtherServer" />
+      <module name="home_electric" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.home.electric.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.home.electric.server.UserServer" />
+      <module name="home_electric" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.home.electric.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.OtherServer" />
+        <item itemvalue="Application.FurnitureServer" />
+        <item itemvalue="Application.UserServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="402ba5db-89b3-4887-827c-237847d20188" name="Default Changelist" comment="" />
+      <created>1614936158735</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614936158735</updated>
+      <workItem from="1614936162744" duration="2637000" />
+      <workItem from="1614949831045" duration="3566000" />
+      <workItem from="1615016549172" duration="2349000" />
+      <workItem from="1615039499098" duration="19190000" />
+      <workItem from="1615203104095" duration="41000" />
+      <workItem from="1620362781961" duration="96000" />
+      <workItem from="1620477704949" duration="32000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="285" y="207" key="#com.intellij.ide.util.MemberChooser" timestamp="1615127588234">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="285" y="207" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1615127588234" />
+    <state x="634" y="260" key="FileChooserDialogImpl" timestamp="1614937160521">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="634" y="260" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1614937160521" />
+    <state width="1877" height="194" key="GridCell.Tab.0.bottom" timestamp="1615132412086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="194" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1615132412086" />
+    <state width="1877" height="194" key="GridCell.Tab.0.center" timestamp="1615132412086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="194" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1615132412086" />
+    <state width="1877" height="194" key="GridCell.Tab.0.left" timestamp="1615132412086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="194" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1615132412086" />
+    <state width="1877" height="194" key="GridCell.Tab.0.right" timestamp="1615132412086">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="194" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1615132412086" />
+    <state x="440" y="94" key="SettingsEditor" timestamp="1614937167826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="440" y="94" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1614937167826" />
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1620477700925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="640" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1620477700925" />
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1615126732160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="143" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1615126732160" />
+  </component>
+</project>
